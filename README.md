@@ -2,15 +2,15 @@
 Repositório para os códigos do robotframework gerados durante a Prime Experts e ministrado pela Mayara Fernandes.
 
 # Dependências
-- Python:                 https://www.python.org/downloads/
-- Visual Studio Code:     https://code.visualstudio.com/download
-- Git:                    https://git-scm.com/downloads
-- RobotFramework:         https://github.com/robotframework/robotframework
-- Selenium Library:       https://github.com/robotframework/SeleniumLibrary/
+- [Python](https://www.python.org/downloads/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Git](https://git-scm.com/downloads)
+- [RobotFramework](https://github.com/robotframework/robotframework)
+- [Selenium Library](https://github.com/robotframework/SeleniumLibrary/)
 
 # Atalhos Robot
 -d "folder"
-    ex.: robot -d .\logs -t "case test name" "filename.robot"
+    ex.: robot -d .\logs "filename.robot"
 
 -t "case test name" "filename": roda apenas o teste indicado no parâmetro
     ex.: robot -d .\logs -t "case test name" "filename.robot"
