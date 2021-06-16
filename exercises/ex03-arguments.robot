@@ -12,11 +12,11 @@ ${IDADE}       ${41}
 *** Test Cases ***
 Criar email com argumentos passando argumentos
     ${email}         Concatenador1    ${PESSOA.nome}   ${PESSOA.sobrenome}    ${PESSOA.idade}
-    Log To Console   ${\n}Concatenador1: ${email}
+    Imprimir email   ${\n}Concatenador1: ${email}
 
 Criar email com argumentos 
-    ${email}         Concatenador2 "george" "mathias" "${41}"
-    Log To Console   ${\n}Concatenador2: ${email}
+    ${email}         Concatenador2 "${NOME}" "${SOBRENOME}" "${IDADE}"
+    Imprimir email   ${\n}Concatenador2: ${email}
 
 
 *** Keywords ***
@@ -24,6 +24,9 @@ Concatenador1
     [Arguments]        ${nome}    ${sobrenome}    ${idade}
     [Return]           ${\n}email: ${nome}_${sobrenome}_${idade}@robot.com
 
-
 Concatenador2 "${nome}" "${sobrenome}" "${idade}"
     [Return]           ${\n}email: ${nome}_${sobrenome}_${idade}@robot.com
+
+Imprimir email
+    [Arguments]    ${email}
+    Log To Console    ${email}
