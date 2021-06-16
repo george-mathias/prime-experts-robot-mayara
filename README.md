@@ -1,5 +1,6 @@
-# prime-experts-robot-mayara
-Repositório para os códigos do robotframework gerados durante a Prime Experts e ministrado pela Mayara Fernandes.
+![](https://www.primecontrol.com.br/wp-content/uploads/2021/01/novalogo-primecontrol-website.png)
+# Repositório para os códigos do robotframework gerados durante a Prime Experts ministrado pela Mayara Fernandes.
+
 
 # Dependências
 - [Python](https://www.python.org/downloads/)
